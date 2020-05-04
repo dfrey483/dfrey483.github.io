@@ -1,0 +1,187 @@
+html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 0.78em arial, sans-serif;
+    background: rgb(240,240,240);
+    color: #555;
+}
+
+p {
+    font:normal 100% 'arial', arial, sans-serif;
+    padding: 10px 0 16px 0;
+    line-height: 1.7em;
+    margin-left: -132px;
+}
+
+#spending_overview_explainer{
+    font:normal 130% 'arial', arial, sans-serif
+}
+
+h1{
+    font:bold 175% 'arial', arial, sans-serif;
+    color:#111;
+    padding:60px 0 5px 15px;
+    margin-left:-150px;
+}
+
+#spending_overview_heading{
+    margin-left: -110px;
+}
+
+.spending_overview_bullet{
+    margin-left: -50px;
+    padding:8px;
+    font:normal 120% 'arial', arial, sans-serif;
+}
+
+h2
+{
+    font: bold 16px 'arial', arial, sans-serif;
+    color: #111;
+    padding: 15px 0 5px 15px;
+    margin-left: 220px;
+}
+
+img
+{
+    margin-left: -145px;
+}
+
+#main,
+#menubar
+{
+    margin-left: 145px;
+    margin-right: auto;
+}
+
+#main {
+    width: 910px;
+}
+
+ /* .topnav code from https://www.w3schools.com/howto/howto_js_topnav.asp */
+.topnav {
+    width: 100%
+}
+
+#img2{
+    position:fixed;
+    z-index: 9999;
+}
+
+#regions_div{
+    margin-left: 20px;
+}
+
+#military_spending_div,
+#military_spending_per_capita_div,
+#military_spending_per_capita_vs_GDP_div,
+#military_spending_percent_gdp_div,
+#education_dollar_change_div,
+#education_percent_change_div,
+#healthcare_dollar_change_div,
+#healthcare_percent_change_div
+{
+    margin-left: -130px;
+}
+
+#total_spending_div{
+    margin-left: -180px;
+}
+
+#healthcare_overview_heading{
+    margin-left: 40px;
+}
+
+.healthcare_overview_bullet{
+    margin-left: 100px;
+    font:normal 120% 'arial', arial, sans-serif;
+    padding:8px;
+}
+
+/*container code, .chart modifications from https://stackoverflow.com/questions/45191154/how-to-put-two-different-charts-next-to-each-other*/
+.container{ 
+    display:flex;
+    width: 100%;
+    height:300px;
+    margin-left: -130px;
+}
+
+.chart1,
+.chart2,
+.chart3,
+.chart4,
+.chart5,
+.chart6,
+.chart7,
+.chart8,
+.chart9,
+.chart10,
+.chart11,
+.chart12,
+.chart13,
+.chart14{
+    width: 50%;
+}
+
+#missingdataexplainer,
+#missingdataexplainer2,
+#missingdataexplainer3{
+    margin-left: 50px;
+    font-style: italic;
+}
+
+#outterbullet{
+    margin-left: -100px;
+    font: bold 16px 'arial', arial, sans-serif;
+
+}
+
+.sublist{
+    margin-left: 20px;
+    padding-top: 8px;
+    font:normal 80% 'arial', arial, sans-serif;
+}
+
+hr{
+    border: solid black;
+    border-width: 1px;
+    width: 2400px;
+    margin-left: -150px;
+}
+
+.topnav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    margin-left: -290px;
+    margin-top: -3px;
+    position:fixed;
+    z-index: 9999;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(165, 165, 165);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(254,138,0);
+    color: white;
+  }
