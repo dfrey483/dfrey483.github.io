@@ -1,5 +1,6 @@
 html {
     height: 100%;
+
 }
 
 * {
@@ -185,3 +186,8 @@ hr{
     background-color: rgb(254,138,0);
     color: white;
   }
+
+.tableauPlaceholder{
+    width: 1275px;
+    height: 874px;
+}
